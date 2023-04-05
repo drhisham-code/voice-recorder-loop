@@ -24,6 +24,7 @@ export function PlayRecordModal() {
 				<main className="flex justify-center items-center">
 					<audio
 						controls
+						loop
 						src={ currentPlaying }
 					></audio>
 				</main>
